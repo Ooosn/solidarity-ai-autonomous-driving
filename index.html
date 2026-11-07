@@ -1,0 +1,367 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Publicly Owned Simulation Assets for Autonomous Vehicle Admission</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="testing.css"><link rel="stylesheet" href="story.css"></head><body><main id="deck" aria-label="Nine-minute Solidarity AI presentation"><section class="slide source-cover" data-title="Publicly Owned Simulation Assets" data-duration="15" aria-label="Slide 1">
+  <div class="source-cover-band">
+    <img src="assets/source-cover-band.png" alt="Reconstructed junction image from the original 11.6 cover">
+    <h1>Publicly Owned Simulation Assets<br>for Autonomous Vehicle Admission</h1>
+    <span class="cover-band-credit"> <sup class="source-mark" aria-label="Reference 1">[1]</sup></span>
+  </div>
+  <div class="source-cover-meta">
+    <p>Yiyan Wang and Sijian Tian</p>
+    <p>Solidarity AI 2026 · Chulalongkorn University, Bangkok</p>
+  </div>
+</section>
+<section class="slide story-slide deployment-context" data-title="Autonomous driving on public roads" data-duration="45" aria-label="Slide 2">
+  <h2 class="story-title">Autonomous driving is entering public roads</h2>
+  <div class="fleet-slide-layout">
+    <div class="fleet-trend">
+      <h3>Autonomous vehicle fleets worldwide</h3>
+      <svg viewBox="0 0 820 476" role="img" aria-labelledby="fleet-title fleet-desc">
+        <title id="fleet-title">Estimated worldwide autonomous vehicle fleet sizes</title>
+        <desc id="fleet-desc">Fewer than roughly 4,000 in 2024, inferred from IEA data. About 8,000 robotaxis in 2025. About 10,000 autonomous vehicles in operation in September 2026, from a separate estimate.</desc>
+        <defs>
+          <pattern id="fleet-estimate" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+            <rect width="10" height="10" fill="#397d70"/>
+            <path d="M0 0v10" stroke="#67a294" stroke-width="3"/>
+          </pattern>
+        </defs>
+        <path d="M22 403h775" stroke="#a8bfb2" stroke-width="2"/>
+        <rect x="99" y="279" width="125" height="124" rx="4" fill="#dce9df" stroke="#76a393" stroke-width="2" stroke-dasharray="6 5"/>
+        <rect x="347" y="155" width="125" height="248" rx="4" fill="#6da696"/>
+        <rect x="595" y="93" width="125" height="310" rx="4" fill="url(#fleet-estimate)"/>
+        <path d="M119 224C252 204 372 72 557 42m-19-4 19 4-11 15" fill="none" stroke="#559688" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <g class="fleet-value" text-anchor="middle">
+          <text x="161.5" y="262">&lt;4,000</text>
+          <text x="409.5" y="138">≈8,000</text>
+          <text x="657.5" y="76">≈10,000</text>
+        </g>
+        <g class="fleet-date" text-anchor="middle">
+          <text x="161.5" y="438">2024 <tspan class="fleet-ref">[2]</tspan></text>
+          <text x="409.5" y="438">2025 <tspan class="fleet-ref">[2]</tspan></text>
+          <text x="657.5" y="438">Sep 2026 <tspan class="fleet-ref">[9]</tspan></text>
+        </g>
+      </svg>
+      <p class="fleet-context">2024–25 robotaxis (2024 inferred) · 2026 operating AVs (separate estimate)</p>
+    </div>
+    <div class="fleet-context-side">
+      <div class="safety-stat"><strong>36%</strong><p>would feel unsafe riding in a self-driving car<small>Average across 31 countries <sup class="source-mark" aria-label="Reference 3">[3]</sup></small></p></div>
+      <figure><img src="assets/waymo-robotaxi.jpg" alt="Waymo Jaguar I-PACE robotaxi on a city street"><figcaption>Waymo robotaxi <small>Source: Waymo</small> <sup class="source-mark" aria-label="Reference 5">[5]</sup></figcaption></figure>
+      <figure><img src="assets/tesla-cybercab.jpg" alt="Gold Tesla Cybercabs on a street at their launch"><figcaption>Tesla Cybercab <sup class="source-mark" aria-label="Reference 4">[4]</sup></figcaption></figure>
+    </div>
+  </div>
+</section>
+<section class="slide story-slide decision-slide" data-motion="decision" data-title="Access to testing and decisions is unequal" data-duration="60" aria-label="Slide 3">
+  <h2 class="story-title">Access to testing and decisions is unequal</h2>
+  <div class="decision-chain" aria-label="Test teams produce evidence that authorities use to make road admission decisions">
+    <div class="decision-role">
+      <div class="role-portraits"><span class="portrait" data-avatar="0" aria-hidden="true"></span><span class="portrait" data-avatar="1" aria-hidden="true"></span></div>
+      <h3>Developers and test teams</h3>
+      <p>Test vehicles and driving systems</p>
+    </div>
+    <div class="decision-link"><span>Test evidence</span><svg viewBox="0 0 80 22" aria-hidden="true"><path d="M2 11h72m-9-9 9 9-9 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="handoff-token"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M3 1h11l7 7v19H3zM14 1v8h7M7 14h10m-10 5h10" fill="#faf9f1" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></i></div>
+    <div class="decision-role">
+      <div class="role-portraits"><span class="portrait" data-avatar="3" aria-hidden="true"></span></div>
+      <h3>Authorities</h3>
+      <p>Review the evidence</p>
+    </div>
+    <div class="decision-link"><span>Decision</span><svg viewBox="0 0 80 22" aria-hidden="true"><path d="M2 11h72m-9-9 9 9-9 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="handoff-token decision-token"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M3 1h11l7 7v19H3zM14 1v8h7M7 14h10m-10 5h10" fill="#faf9f1" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></i></div>
+    <div class="decision-role road-access-role">
+      <svg viewBox="0 0 184 92" aria-hidden="true">
+        <path d="M10 81 49 12h84l41 69Z" fill="#8b9da3"/>
+        <path d="M92 17v58" stroke="#faf9f1" stroke-width="4" stroke-dasharray="8 7"/>
+        <rect x="112" y="7" width="24" height="45" rx="5" fill="#344b4b"/><path d="M124 52v30" stroke="#344b4b" stroke-width="4"/>
+        <circle cx="124" cy="18" r="4" fill="#9e7067"/><circle cx="124" cy="29" r="4" fill="#d4b478"/><circle cx="124" cy="40" r="4" fill="#a6d2b4"/>
+        <path d="M46 59l8-3 7-8h22l8 8 7 3v11H46z" fill="#4c9e91"/>
+        <path d="M62 50h20l6 6H56z" fill="#e8f3e7"/>
+        <g fill="#344b4b"><circle cx="57" cy="69" r="5"/><circle cx="87" cy="69" r="5"/></g>
+      </svg>
+      <h3>Road admission <sup class="source-mark" aria-label="Reference 6">[6]</sup></h3>
+      <p>Who can operate on public roads</p>
+    </div>
+  </div>
+  <div class="decision-public">
+    <div class="role-portraits"><span class="portrait" data-avatar="2" aria-hidden="true"></span><span class="portrait" data-avatar="5" aria-hidden="true"></span><span class="portrait" data-avatar="4" aria-hidden="true"></span></div>
+    <div><h3>People who use the roads</h3><p>Less access to evidence, testing tools and a say in decisions.</p></div>
+  </div>
+  <p class="story-line">Could visualising traffic situations help narrow this gap?</p>
+</section>
+<section class="slide story-slide junction-study" data-motion="junction" data-title="Why start at a junction?" data-duration="75" aria-label="Slide 4">
+  <h2 class="story-title">Why start at a junction?</h2>
+  <div class="junction-study-layout">
+    <figure class="junction-illustration">
+      <div class="drawing" data-view="junction-overview" aria-label="Illustrated junction with turning cars, through traffic, pedestrians and a cyclist"></div>
+      <figcaption>Vehicles, turns and crossings meet in one place.</figcaption>
+    </figure>
+    <div class="junction-evidence">
+      <div class="junction-number"><strong>40–60%</strong><p>of road crashes occur at junctions in many countries. <sup class="source-mark" aria-label="Reference 7">[7]</sup></p></div>
+      <div class="junction-exhibits">
+        <figure><div class="site-photo"><img src="assets/thai-junction.jpg" alt="Aerial photo of a busy real junction"></div><figcaption>Traffic hub <sup class="source-mark" aria-label="Reference 8">[8]</sup></figcaption></figure>
+        <figure>
+          <div class="site-photo camera-view-crop"><img src="assets/roadside-camera.png" alt="Original comparison of a fixed roadside camera and a moving vehicle viewpoint"></div>
+          <figcaption class="camera-key"><span>Fixed roadside view</span><span>Vehicle view</span> <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption>
+        </figure>
+      </div>
+      <div class="observation-logic">
+        <p><strong>Fixed cameras</strong> capture many interactions across the same junction over time.</p>
+        <p><strong>Sparse, elevated and oblique views</strong> differ from what a vehicle sees.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="slide story-slide method-slide" data-title="I2V-FOCAL workflow" data-duration="60" aria-label="Slide 5">
+  <h2 class="story-title">I2V-FOCAL turns roadside views into reusable scenes</h2>
+  <p class="paper-context">I2V-FOCAL: Fusion of Consistent Appearance and Lighting for Infrastructure-to-Vehicle Synthesis <span>· Accepted at IROS 2026</span> <sup class="source-mark" aria-label="Reference 1">[1]</sup></p>
+  <div class="method-board">
+    <figure class="method-montage">
+      <img src="assets/asset-composition.png" alt="The original composite of four roadside views, the reconstructed junction and the editable scene">
+      <span class="method-image-credit"> <sup class="source-mark" aria-label="Reference 1">[1]</sup></span>
+    </figure>
+    <svg class="method-connectors" viewBox="0 0 1472 556" preserveAspectRatio="none" aria-hidden="true">
+      <g fill="none" stroke-width="2.8">
+        <path d="M140 62H805V34h37m-702 296h665V62" stroke="#37a59a"/>
+        <path d="M446 155H808V141h34" stroke="#51815b"/>
+        <path d="M355 210v80h454v-32h33" stroke="#c29946"/>
+        <path d="M523 300v160h-145v13" stroke="#548099"/>
+      </g>
+      <g fill="#37a59a" stroke="#e3f3eb" stroke-width="1.5"><circle cx="140" cy="62" r="7"/><circle cx="576" cy="62" r="7"/><circle cx="140" cy="330" r="7"/><circle cx="576" cy="330" r="7"/></g>
+      <circle cx="446" cy="155" r="6.5" fill="#51815b"/><circle cx="355" cy="210" r="6.5" fill="#d9ad55"/>
+    </svg>
+    <div class="method-parts">
+      <div class="method-input"><h3>Sparse roadside views</h3></div>
+      <div class="method-part method-static"><h3><b>1</b>Static background reconstruction</h3><p>Reusable static 3DGS</p></div>
+      <div class="method-part method-dynamic"><h3><b>2</b>Dynamic vehicle reconstruction</h3><p>Vehicle asset library</p><div class="method-library"><figure><img src="assets/vehicle-asset-a.png" alt="White van"><figcaption>Vehicle A<small>State <i>t</i><sub>a</sub></small></figcaption></figure>
+<figure><img src="assets/vehicle-asset-b.png" alt="Blue car"><figcaption>Vehicle B<small>State <i>t</i><sub>b</sub></small></figcaption></figure>
+<figure><img src="assets/vehicle-asset-c.png" alt="Purple truck"><figcaption>Vehicle C<small>State <i>t</i><sub>c</sub></small></figcaption></figure>
+<figure><img src="assets/vehicle-asset-d.png" alt="Red truck"><figcaption>Vehicle D<small>State <i>t</i><sub>d</sub></small></figcaption></figure></div></div>
+    </div>
+    <div class="method-composition"><h3><b>3</b>Scenario composition</h3><p>Sampling · Collision-aware placement · PBR relighting</p></div>
+  </div>
+  <p class="method-result"><span class="method-sum">(1) + (2) + (3)</span><span>One capture</span><i aria-hidden="true">→</i><span>Reusable assets</span><i aria-hidden="true">→</i><span>Many ego-view scenarios</span></p>
+</section>
+<section class="slide story-slide roadside-input" data-motion="roadside" data-title="Four roadside views as input" data-duration="30" aria-label="Slide 6">
+  <header class="applied-heading"><p>Example</p><h2>Four roadside views as input</h2></header>
+  <video class="camera-source" data-camera-source src="assets/roadside.mp4" muted loop playsinline preload="auto" aria-hidden="true"></video>
+  <div class="roadside-grid"><figure><canvas data-camera-view="0" aria-label="Synchronized roadside camera 1"></canvas><figcaption>View 1 <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+<figure><canvas data-camera-view="1" aria-label="Synchronized roadside camera 2"></canvas><figcaption>View 2 <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+<figure><canvas data-camera-view="2" aria-label="Synchronized roadside camera 3"></canvas><figcaption>View 3 <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+<figure><canvas data-camera-view="3" aria-label="Synchronized roadside camera 4"></canvas><figcaption>View 4 <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure></div>
+</section>
+<section class="slide story-slide" data-title="Reconstruction outputs and editable scenarios" data-duration="90" aria-label="Slide 7">
+  <header class="applied-heading"><p>Example</p><h2>Reconstruction outputs and editable scenarios</h2></header>
+  <div class="demo-layout full-demo">
+    <figure class="vehicle-view-figure">
+      <img src="assets/vehicle-views.png" alt="Original I2V-FOCAL figure showing several viewpoints around a vehicle">
+      <figcaption>Views from around the vehicle <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption>
+    </figure>
+    <div class="demo-variants">
+      <figure><video src="assets/standard.mp4" muted loop playsinline preload="auto" aria-label="Actual I2V-FOCAL reconstruction"></video><figcaption>Reconstructed junction <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+      <div class="variant-pair">
+        <figure><video src="assets/editing.mp4" muted loop playsinline preload="auto" aria-label="Actual I2V-FOCAL vehicle editing"></video><figcaption>Changed traffic <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+        <figure><video src="assets/relighting.mp4" muted loop playsinline preload="auto" aria-label="Actual I2V-FOCAL relighting"></video><figcaption>Changed lighting <sup class="source-mark" aria-label="Reference 1">[1]</sup></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="slide applied-slide admission" data-motion="admission" data-title="Public scrutiny before road admission" data-duration="55" aria-label="Slide 8">
+  <header class="applied-heading"><p>PUBLIC OVERSIGHT</p><span class="proposal">Proposed use</span><h2>Public scrutiny before road admission</h2></header>
+  <ol class="admission-flow">
+    <li class="flow-card release-card">
+      <header class="flow-head"><span>01</span><h3>A new release</h3></header>
+      <figure class="release-option">
+        <svg viewBox="0 0 200 94" aria-hidden="true">
+          <ellipse cx="100" cy="78" rx="83" ry="10" fill="#d5e6d9"/>
+          <path d="M22 49l29-8 22-26h49l28 25 29 9 8 13v11H15V60Z" fill="#4ca092"/>
+          <path d="M77 21h42l20 20H62Z" fill="#e7f2ed"/><path d="M100 22v19" stroke="#4ca092" stroke-width="4"/>
+          <rect x="18" y="59" width="17" height="6" rx="2" fill="#f9d987"/><rect x="169" y="57" width="15" height="6" rx="2" fill="#f9d987"/>
+          <g fill="#294243"><circle cx="50" cy="72" r="14"/><circle cx="151" cy="72" r="14"/></g>
+          <g fill="#c9d6cc"><circle cx="50" cy="72" r="6"/><circle cx="151" cy="72" r="6"/></g>
+        </svg>
+        <figcaption>New vehicle</figcaption>
+      </figure>
+      <span class="release-or">or</span>
+      <figure class="release-option">
+        <svg viewBox="0 0 200 94" aria-hidden="true">
+          <rect x="30" y="9" width="140" height="74" rx="9" fill="#e2e9f3" stroke="#9eb1ce" stroke-width="2"/>
+          <path d="M76 32 61 45l15 13m48-26 15 13-15 13M106 27 94 63" fill="none" stroke="#5375a5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M157 6v21m-10-11h20" stroke="#568273" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption>New driving algorithm</figcaption>
+      </figure>
+    </li>
+    <li class="flow-card test-card">
+      <header class="flow-head"><span>02</span><h3>Run it in the reconstructed junction</h3></header>
+      <div class="drawing" data-view="evaluation" aria-label="A new system is run through a challenging reconstructed junction">
+        <span class="frame-label">Yield at an obscured crossing</span>
+        <span class="vehicle-tag" data-pin="vehicle">New system</span>
+      </div>
+    </li>
+    <li class="flow-card watch-card">
+      <header class="flow-head"><span>03</span><h3>The public watches the same run</h3></header>
+      <div class="viewing-illustration">
+        <div class="watch-monitor">
+          <canvas data-same-run aria-hidden="true"></canvas>
+          <span>Same test run</span>
+        </div>
+        <svg class="watch-audience" viewBox="0 0 320 102" aria-hidden="true">
+          <path d="M4 102V87q0-20 33-26h26q34 6 34 26v15" fill="#749b87"/>
+          <path d="M39 59h23v16q-11 8-23 0Z" fill="#c78d6d"/>
+          <ellipse cx="50" cy="43" rx="23" ry="26" fill="#d6a183"/>
+          <path d="M27 44q-7-30 18-33 27-5 29 23l-4 20q-4 12-20 12-17 0-21-13Z" fill="#56463e"/>
+          <path d="M223 102V87q0-20 33-26h26q34 6 34 26v15" fill="#b58a78"/>
+          <path d="M258 59h23v16q-11 8-23 0Z" fill="#a97658"/>
+          <ellipse cx="269" cy="43" rx="22" ry="27" fill="#b88462"/>
+          <path d="M247 51q-11-28 8-36 25-12 37 10l2 22q-3 18-23 19-19 0-24-15Z" fill="#403a40"/>
+          <path d="M101 102V83q0-26 43-32h30q42 6 42 32v19" fill="#6686ad"/>
+          <path d="M146 50h27v18q-14 10-27 0Z" fill="#d59b72"/>
+          <ellipse cx="159" cy="31" rx="25" ry="28" fill="#e6b38f"/>
+          <path d="M133 33q-6-23 13-29 23-8 37 8l3 21q-2 19-13 22h-27q-11-7-13-22Z" fill="#3e3736"/>
+        </svg>
+      </div>
+      <div class="run-outcomes" aria-label="Scenario outcomes">
+        <span class="run-result pass" data-result="pass"><b aria-hidden="true">✓</b> Pass</span>
+        <span class="run-result fail" data-result="fail"><b aria-hidden="true">×</b> Fail</span>
+      </div>
+      <p class="run-status" data-outcome-label>Run 1 · In progress</p>
+    </li>
+  </ol>
+  <p class="applied-footer">Watching the same test gives the public a basis for scrutinising road admission.</p>
+</section>
+<section class="slide applied-slide editing-input" data-motion="trio" data-title="Different ways to explore the same junction" data-duration="35" aria-label="Slide 9">
+  <header class="applied-heading"><p>PUBLIC EXPERIMENTATION</p><span class="proposal">Proposed use</span><h2>Different ways to explore the same junction</h2></header>
+  <div class="asset-source">
+    <svg viewBox="0 0 65 34" aria-hidden="true">
+      <path d="M2 19l8-2 7-8h14l9 9 5 2v7H2Z" fill="#4ca092"/>
+      <path d="M17 11h13l6 7H12Z" fill="#fffdf6"/>
+      <g fill="#294243"><circle cx="13" cy="26" r="4"/><circle cx="35" cy="26" r="4"/></g>
+      <path d="M48 26c13 0 1-16 14-16" fill="none" stroke="#5f7eab" stroke-width="2.6" stroke-dasharray="3 2"/>
+    </svg>
+    <strong>I2V vehicle and trajectory assets</strong>
+  </div>
+  <svg class="asset-branches" viewBox="0 0 1468 44" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M734 0v14M242 39V14h984v25M734 14v25" fill="none" stroke="currentColor" stroke-width="2.5"/>
+    <path d="m236 34 6 8 6-8m480 0 6 8 6-8m480 0 6 8 6-8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  </svg>
+  <div class="edit-stage">
+    <div class="edit-trio"><figure class="edit-card">
+      <div class="editor"><span class="portrait" data-avatar="0" aria-hidden="true"></span><span>Participant 1</span></div>
+      <div class="drawing" data-view="large0" aria-label="Adds a minibus"></div>
+      <figcaption>Adds a minibus</figcaption>
+    </figure>
+<figure class="edit-card">
+      <div class="editor"><span class="portrait" data-avatar="1" aria-hidden="true"></span><span>Participant 2</span></div>
+      <div class="drawing" data-view="large1" aria-label="Redraws a turn"></div>
+      <figcaption>Redraws a turn</figcaption>
+    </figure>
+<figure class="edit-card">
+      <div class="editor"><span class="portrait" data-avatar="2" aria-hidden="true"></span><span>Participant 3</span></div>
+      <div class="drawing" data-view="large2" aria-label="Tries low sun"></div>
+      <figcaption>Tries low sun</figcaption>
+    </figure></div>
+  </div>
+  <p class="applied-footer">People can change the vehicles, trajectories and lighting in the same junction.</p>
+</section>
+<section class="slide applied-slide editing-output" data-motion="gallery" data-title="Failed cases become feedback for evaluation" data-duration="40" aria-label="Slide 10">
+  <header class="applied-heading"><p>PUBLIC EXPERIMENTATION</p><span class="proposal">Illustrative outcomes</span><h2>Failed cases become feedback for evaluation</h2></header>
+  <div class="edit-stage">
+    <div class="edit-gallery"><figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="0" aria-hidden="true"></span><span>Participant 1</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small0" aria-label="Adds a minibus"></div>
+    </figure>
+<figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="1" aria-hidden="true"></span><span>Participant 2</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small1" aria-label="Redraws a turn"></div>
+    </figure>
+<figure class="edit-card" data-case-result="fail">
+      <div class="editor"><span class="portrait" data-avatar="2" aria-hidden="true"></span><span>Participant 3</span><b class="case-verdict fail" title="Failed this case" role="img" aria-label="Failed this case">×</b></div>
+      <div class="drawing" data-view="small2" aria-label="Tries low sun"></div>
+    </figure>
+<figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="3" aria-hidden="true"></span><span>Participant 4</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small3" aria-label="Times two arrivals together"></div>
+    </figure>
+<figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="4" aria-hidden="true"></span><span>Participant 5</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small4" aria-label="Swaps in a delivery van"></div>
+    </figure>
+<figure class="edit-card" data-case-result="fail">
+      <div class="editor"><span class="portrait" data-avatar="5" aria-hidden="true"></span><span>Participant 6</span><b class="case-verdict fail" title="Failed this case" role="img" aria-label="Failed this case">×</b></div>
+      <div class="drawing" data-view="small5" aria-label="Moves a crossing earlier"></div>
+    </figure>
+<figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="6" aria-hidden="true"></span><span>Participant 7</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small6" aria-label="Tries a tighter turn"></div>
+    </figure>
+<figure class="edit-card" data-case-result="pass">
+      <div class="editor"><span class="portrait" data-avatar="7" aria-hidden="true"></span><span>Participant 8</span><b class="case-verdict pass" title="Passed this case" role="img" aria-label="Passed this case">✓</b></div>
+      <div class="drawing" data-view="small7" aria-label="Mixes cycles and cars"></div>
+    </figure>
+<figure class="edit-card" data-case-result="fail">
+      <div class="editor"><span class="portrait" data-avatar="8" aria-hidden="true"></span><span>Participant 9</span><b class="case-verdict fail" title="Failed this case" role="img" aria-label="Failed this case">×</b></div>
+      <div class="drawing" data-view="small8" aria-label="Adds a second turning car"></div>
+    </figure></div>
+  </div>
+  <aside class="feedback-destination">
+    <svg class="failure-links" viewBox="0 0 72 590" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 94h37v201H0m37 0v201H0m37-201h32m-9-8 9 8-9 8" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h3>Public feedback</h3>
+  </aside>
+  <div class="case-legend">
+    <span><b class="case-verdict pass" aria-hidden="true">✓</b> Passed this case</span>
+    <span><b class="case-verdict fail" aria-hidden="true">×</b> Failed this case</span>
+  </div>
+</section>
+<section class="slide story-slide decision-slide closing-decision" data-motion="decision" data-title="A public role in autonomous-vehicle evaluation" data-duration="35" aria-label="Slide 11">
+  <h2 class="story-title">A public role in autonomous-vehicle evaluation</h2>
+  <div class="decision-chain" aria-label="Test teams produce evidence that authorities use to make road admission decisions">
+    <div class="decision-role">
+      <div class="role-portraits"><span class="portrait" data-avatar="0" aria-hidden="true"></span><span class="portrait" data-avatar="1" aria-hidden="true"></span></div>
+      <h3>Developers and test teams</h3>
+      <p>Test vehicles and driving systems</p>
+    </div>
+    <div class="decision-link"><span>Test evidence</span><svg viewBox="0 0 80 22" aria-hidden="true"><path d="M2 11h72m-9-9 9 9-9 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="handoff-token"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M3 1h11l7 7v19H3zM14 1v8h7M7 14h10m-10 5h10" fill="#faf9f1" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></i></div>
+    <div class="decision-role">
+      <div class="role-portraits"><span class="portrait" data-avatar="3" aria-hidden="true"></span></div>
+      <h3>Authorities</h3>
+      <p>Review the evidence</p>
+    </div>
+    <div class="decision-link"><span>Decision</span><svg viewBox="0 0 80 22" aria-hidden="true"><path d="M2 11h72m-9-9 9 9-9 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="handoff-token decision-token"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M3 1h11l7 7v19H3zM14 1v8h7M7 14h10m-10 5h10" fill="#faf9f1" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></i></div>
+    <div class="decision-role road-access-role">
+      <svg viewBox="0 0 184 92" aria-hidden="true">
+        <path d="M10 81 49 12h84l41 69Z" fill="#8b9da3"/>
+        <path d="M92 17v58" stroke="#faf9f1" stroke-width="4" stroke-dasharray="8 7"/>
+        <rect x="112" y="7" width="24" height="45" rx="5" fill="#344b4b"/><path d="M124 52v30" stroke="#344b4b" stroke-width="4"/>
+        <circle cx="124" cy="18" r="4" fill="#9e7067"/><circle cx="124" cy="29" r="4" fill="#d4b478"/><circle cx="124" cy="40" r="4" fill="#a6d2b4"/>
+        <path d="M46 59l8-3 7-8h22l8 8 7 3v11H46z" fill="#4c9e91"/>
+        <path d="M62 50h20l6 6H56z" fill="#e8f3e7"/>
+        <g fill="#344b4b"><circle cx="57" cy="69" r="5"/><circle cx="87" cy="69" r="5"/></g>
+      </svg>
+      <h3>Road admission <sup class="source-mark" aria-label="Reference 6">[6]</sup></h3>
+      <p>Who can operate on public roads</p>
+    </div>
+  </div>
+  <div class="closing-public-links">
+    <svg viewBox="0 0 1472 61" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M54 2v54m-6-7 6 7 6-7" fill="none" stroke="#508f7e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M220 59V4m-6 7 6-7 6 7" fill="none" stroke="#a95e54" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="closing-access-label">Visible results</span>
+    <span class="closing-feedback-label">Failed cases</span>
+  </div>
+  <div class="decision-public">
+    <div class="role-portraits"><span class="portrait" data-avatar="2" aria-hidden="true"></span><span class="portrait" data-avatar="5" aria-hidden="true"></span><span class="portrait" data-avatar="4" aria-hidden="true"></span></div>
+    <div><h3>People who use the roads</h3><p>Can watch evaluations and bring failed cases back into testing.</p></div>
+  </div>
+  <p class="story-line">A reusable visual environment gives road users a role in how vehicles are evaluated.</p>
+</section>
+<section class="slide references academic-references" data-title="References" data-duration="0" aria-label="Slide 12">
+  <h2>References</h2>
+  <ol class="academic-list"><li><span class="reference-index">[1]</span><div><strong>Wang, Y., et al.</strong> <em>I2V-FOCAL: Fusion of Consistent Appearance and Lighting for Infrastructure-to-Vehicle Synthesis</em>.<small>IROS 2026. Original presentation materials (11.6.pptx).</small></div></li>
+<li><span class="reference-index">[2]</span><div><strong>International Energy Agency.</strong> <a href="https://www.iea.org/reports/autonomous-vehicles"><em>Autonomous vehicles</em></a>.<small>2026. Global robotaxi fleet in 2025. The 2024 bound is inferred from the reported growth. <a class="reference-domain" href="https://www.iea.org/reports/autonomous-vehicles">iea.org</a></small></div></li>
+<li><span class="reference-index">[3]</span><div><strong>Ipsos.</strong> <a href="https://www.ipsos.com/en-th/ipsos-mobility-report-2026"><em>The Ipsos Mobility Report 2026</em></a>.<small>2026. Survey across 31 countries. <a class="reference-domain" href="https://www.ipsos.com/en-th/ipsos-mobility-report-2026">ipsos.com</a></small></div></li>
+<li><span class="reference-index">[4]</span><div><strong>Tesla.</strong> <a href="https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"><em>Q3 2026 Update</em></a>.<small>2026. Cybercab launch photograph, p. 14. <a class="reference-domain" href="https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf">tesla.com</a></small></div></li>
+<li><span class="reference-index">[5]</span><div><strong>Waymo.</strong> <a href="https://waymo.com/media-resources/"><em>Media Resources</em></a>.<small>Jaguar I-PACE in downtown Phoenix. Source: Waymo. <a class="reference-domain" href="https://waymo.com/media-resources/">waymo.com</a></small></div></li>
+<li><span class="reference-index">[6]</span><div><strong>Land Transport Authority, Singapore.</strong> <a href="https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/autonomous_vehicles.html"><em>Autonomous Vehicles</em></a>.<small>Overview of testing and road deployment. <a class="reference-domain" href="https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/autonomous_vehicles.html">lta.gov.sg</a></small></div></li>
+<li><span class="reference-index">[7]</span><div><strong>European Road Safety Observatory.</strong> <a href="https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/statistics-and-analysis-archive/roads/junctions_en"><em>Junctions</em></a>.<small>Reported range for the share of crashes at junctions. <a class="reference-domain" href="https://road-safety.transport.ec.europa.eu/european-road-safety-observatory/statistics-and-analysis-archive/roads/junctions_en">road-safety.transport.ec.europa.eu</a></small></div></li>
+<li><span class="reference-index">[8]</span><div><strong>Roy, S.</strong> <a href="https://universe.roboflow.com/subrata-roy-ejpwc/m2_charoenphool-intersection"><em>Charoen Phool Intersection</em></a>.<small>Roboflow Universe dataset. CC BY 4.0. <a class="reference-domain" href="https://universe.roboflow.com/subrata-roy-ejpwc/m2_charoenphool-intersection">universe.roboflow.com</a></small></div></li>
+<li><span class="reference-index">[9]</span><div><strong>Chambers, A.</strong> <a href="https://technologymagazine.com/news/the-unseen-race-to-power-autonomous-vehicle-fleets"><em>The Unseen Race to Power Autonomous Vehicle Fleets</em></a>.<small><i>Technology Magazine</i>, 22 September 2026. Reports BloombergNEF’s worldwide operating-fleet estimate.</small></div></li></ol>
+</section>
+</main><nav id="presentation-controls" aria-label="Presentation controls"><div><button id="previous" aria-label="Previous slide">←</button><span id="slide-number"></span><button id="next" aria-label="Next slide">→</button></div><span id="slide-title"></span><div><button id="replay">Replay · R</button><button id="notes">Notes · N</button><button id="clean">Clean view · C</button><button id="fullscreen">Fullscreen · F</button></div></nav><aside id="notes-panel" hidden><button id="close-notes" aria-label="Close notes">×</button><p id="notes-time"></p><h3>English speaker notes</h3><div id="notes-script"></div><h3>画面与主线</h3><div id="notes-design"></div></aside><script src="content.js"></script><script src="testing-motion.js"></script><script src="deck.js"></script></body></html>
